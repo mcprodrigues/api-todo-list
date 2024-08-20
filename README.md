@@ -1,15 +1,15 @@
 <h1 align="center" style="font-weight: bold;">📃 API ToDo List</h1>
 <p align="center">
- <a href="#tech">Tecnologias</a> • 
-<a href="#practices">Práticas de Desenvolvimento</a> • 
- <a href="#started">Executando a aplicação</a> • 
-  <a href="#routes">API Endpoints</a> 
+ <a href="#tecnologias">Tecnologias</a> • 
+<a href="#práticas-de-desenvolvimento">Práticas de Desenvolvimento</a> • 
+ <a href="#executando-a-aplicação">Executando a aplicação</a> • 
+  <a href="#api-endpoints">API Endpoints</a> 
 </p>
 <p align="center">
     <b>Esta API é projetada para gerenciar tarefas de forma eficiente e organizada. Ela suporta operações CRUD (Criar, Ler, Atualizar, Excluir) em tarefas, oferecendo uma solução abrangente para o gerenciamento de listas de tarefas.</b>
 </p>
 
-<h2 id="technologies">💻 Tecnologias</h2>
+## 💻 Tecnologias
 - Java
 - Spring Boot
 - Spring MVC
@@ -17,7 +17,7 @@
 - SpringDoc OpenAPI 3
 - MySQL
 
-<h2 id="practices">🛠️ Práticas de Desenvolvimento</h2>
+## 🛠️ Práticas de Desenvolvimento
 - SOLID, DRY, YAGNI, KISS
 - API REST
 - Consultas com Spring Data JPA
@@ -25,24 +25,24 @@
 - Tratamento de Respostas de Erro
 - Geração Automática de Swagger com OpenAPI 3
 
-<h2 id="started">🚀 Executando a aplicação</h2>
-<h3>Clonar o repositório:</h3>
+## 🚀 Executando a aplicação
+### Clonar o repositório:
 
 ```bash
 git clone your-project-url-in-github
 ```
 
-<h3>Construir o projeto:</h3>
+### Construir o projeto:
 ```bash
 $ ./mvnw clean package
 ```
 
-<h3>Executar a aplicação:</h3>
+### Executar a aplicação:
 ```bash
-$ java -jar target/todolist-0.0.1-SNAPSHOT.jar
+ java -jar target/todolist-0.0.1-SNAPSHOT.jar
 ```
 
-<h2 id="routes">📍 API Endpoints</h2>
+## 📍 API Endpoints
 Para fazer as requisições HTTP, foi utilizada a ferramenta [httpie](https://httpie.io):
 - Criar Tarefa
 ```
