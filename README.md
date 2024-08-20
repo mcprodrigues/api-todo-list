@@ -1,11 +1,5 @@
 <h1 align="center" style="font-weight: bold;">📃 API ToDo List</h1>
 <p align="center">
- <a href="#tecnologias">Tecnologias</a> • 
-<a href="#práticas-de-desenvolvimento">Práticas de Desenvolvimento</a> • 
- <a href="#executando-a-aplicação">Executando a aplicação</a> • 
-  <a href="#api-endpoints">API Endpoints</a> 
-</p>
-<p align="center">
     <b>Esta API é projetada para gerenciar tarefas de forma eficiente e organizada. Ela suporta operações CRUD (Criar, Ler, Atualizar, Excluir) em tarefas, oferecendo uma solução abrangente para o gerenciamento de listas de tarefas.</b>
 </p>
 
